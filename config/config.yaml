@@ -1,0 +1,33 @@
+sip:
+  host: "0.0.0.0"
+  port: 5060
+  public_ip: "AUTO"          # AUTO = detect from routing table; or set explicit IP
+  allowed_ips: []            # Empty = allow all (dev). Add DIDWW CIDRs for production.
+    # - "185.98.36.0/22"
+    # - "185.98.40.0/22"
+    # - "185.98.44.0/22"
+
+rtp:
+  port_min: 10000
+  port_max: 20000
+  jitter_buffer_packets: 3   # ~60ms at 20ms/packet
+
+bridge:
+  host: "0.0.0.0"
+  port: 8765
+  # Optional HTTP webhook: gateway POSTs call events here so AI backend
+  # can connect to the right WebSocket URL.
+  ai_webhook_url: ""         # e.g. "http://localhost:8080/webhook"
+  frame_ms: 20               # PCM chunk size in ms
+
+audio:
+  sample_rate: 8000
+  channels: 1
+  bit_depth: 16
+
+performance:
+  max_concurrent_calls: 50
+
+logging:
+  level: "INFO"
+  file: "logs/gateway.log"

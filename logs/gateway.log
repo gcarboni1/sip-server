@@ -1,0 +1,52 @@
+2026-04-25 18:43:08,154 DEBUG    asyncio                        Using selector: EpollSelector
+2026-04-25 18:43:08,154 INFO     src.main                       ============================================================
+2026-04-25 18:43:08,154 INFO     src.main                       SIP Media Gateway starting
+2026-04-25 18:43:08,154 INFO     src.main                         Public IP   : 192.168.178.26
+2026-04-25 18:43:08,154 INFO     src.main                         SIP         : UDP 0.0.0.0:5060
+2026-04-25 18:43:08,154 INFO     src.main                         RTP range   : 10000 – 20000
+2026-04-25 18:43:08,154 INFO     src.main                         WS bridge   : ws://0.0.0.0:8765
+2026-04-25 18:43:08,154 INFO     src.main                         Mode        : ECHO (loopback test)
+2026-04-25 18:43:08,154 INFO     src.main                       ============================================================
+2026-04-25 18:43:08,155 INFO     src.sip.server                 SIP server listening on UDP 0.0.0.0:5060
+2026-04-25 18:43:08,155 INFO     websockets.server              server listening on 0.0.0.0:8765
+2026-04-25 18:43:08,155 INFO     src.bridge.websocket_bridge    Audio bridge listening on ws://0.0.0.0:8765
+2026-04-25 18:43:08,155 INFO     src.main                       Gateway ready – waiting for calls
+2026-04-25 18:43:11,047 INFO     src.main                       Shutdown signal received
+2026-04-25 18:43:11,049 INFO     src.main                       Shutting down…
+2026-04-25 18:43:11,050 INFO     websockets.server              server closing
+2026-04-25 18:43:11,050 INFO     websockets.server              server closed
+2026-04-25 18:43:11,050 INFO     src.main                       Goodbye.
+2026-04-25 18:43:25,975 INFO     src.main                       ============================================================
+2026-04-25 18:43:25,975 INFO     src.main                       SIP Media Gateway starting
+2026-04-25 18:43:25,975 INFO     src.main                         Public IP   : 192.168.178.26
+2026-04-25 18:43:25,975 INFO     src.main                         SIP         : UDP 0.0.0.0:5060
+2026-04-25 18:43:25,975 INFO     src.main                         RTP range   : 10000 – 20000
+2026-04-25 18:43:25,975 INFO     src.main                         WS bridge   : ws://0.0.0.0:8765
+2026-04-25 18:43:25,975 INFO     src.main                         Mode        : ECHO (loopback test)
+2026-04-25 18:43:25,975 INFO     src.main                       ============================================================
+2026-04-25 18:43:25,975 INFO     src.sip.server                 SIP server listening on UDP 0.0.0.0:5060
+2026-04-25 18:43:25,976 INFO     websockets.server              server listening on 0.0.0.0:8765
+2026-04-25 18:43:25,976 INFO     src.bridge.websocket_bridge    Audio bridge listening on ws://0.0.0.0:8765
+2026-04-25 18:43:25,976 INFO     src.main                       Gateway ready – waiting for calls
+2026-04-25 18:43:28,839 INFO     src.main                       Shutdown signal received
+2026-04-25 18:43:28,839 INFO     src.main                       Shutting down…
+2026-04-25 18:43:28,839 INFO     websockets.server              server closing
+2026-04-25 18:43:28,840 INFO     websockets.server              server closed
+2026-04-25 18:43:28,840 INFO     src.main                       Goodbye.
+2026-04-25 20:25:03,263 INFO     src.main                       ============================================================
+2026-04-25 20:25:03,263 INFO     src.main                       SIP Media Gateway starting
+2026-04-25 20:25:03,263 INFO     src.main                         Public IP   : 192.168.178.26
+2026-04-25 20:25:03,263 INFO     src.main                         SIP         : UDP 0.0.0.0:5060
+2026-04-25 20:25:03,263 INFO     src.main                         RTP range   : 10000 – 20000
+2026-04-25 20:25:03,263 INFO     src.main                         WS bridge   : ws://0.0.0.0:8765
+2026-04-25 20:25:03,263 INFO     src.main                         Mode        : ECHO (loopback test)
+2026-04-25 20:25:03,263 INFO     src.main                       ============================================================
+2026-04-25 20:25:03,263 INFO     src.sip.server                 SIP server listening on UDP 0.0.0.0:5060
+2026-04-25 20:25:03,264 INFO     websockets.server              server listening on 0.0.0.0:8765
+2026-04-25 20:25:03,264 INFO     src.bridge.websocket_bridge    Audio bridge listening on ws://0.0.0.0:8765
+2026-04-25 20:25:03,264 INFO     src.main                       Gateway ready – waiting for calls
+2026-04-25 20:25:11,777 INFO     src.main                       Shutdown signal received
+2026-04-25 20:25:11,778 INFO     src.main                       Shutting down…
+2026-04-25 20:25:11,778 INFO     websockets.server              server closing
+2026-04-25 20:25:11,778 INFO     websockets.server              server closed
+2026-04-25 20:25:11,778 INFO     src.main                       Goodbye.
