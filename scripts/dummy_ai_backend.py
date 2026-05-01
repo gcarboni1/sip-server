@@ -54,7 +54,7 @@ def gen_sine(freq: float, frame_index: int) -> bytes:
     return struct.pack(f"<{FRAME_SAMPLES}h", *samples)
 
 
-async def run(ws_url: str, call_id: str, mode: str, save_path: str | None) -> None:
+async def run(ws_url: str, call_id: str, mode: str, save_path: str) -> None:
     print(f"Connecting to {ws_url}  call_id={call_id}  mode={mode}")
     save_file = open(save_path, "wb") if save_path else None
     frame_idx = 0
