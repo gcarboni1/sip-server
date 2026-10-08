@@ -3,6 +3,8 @@
 A minimal, production-oriented SIP-to-RTP media gateway written in pure Python.  
 Receives inbound SIP calls from a provider (DIDWW or any SIP trunk), decodes G.711 audio, streams PCM to an AI backend over WebSocket, and plays back the AI's audio response to the caller.
 
+<img width="1536" height="1024" alt="phone_call_being_answered_automatically" src="https://github.com/user-attachments/assets/c7fc5cda-aff3-4484-85d3-bf49377ed0c1" />
+
 ---
 
 ## Table of contents
