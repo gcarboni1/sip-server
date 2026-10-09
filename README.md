@@ -1,4 +1,4 @@
-# SIP Media Gateway
+# SIP to AI Media Gateway
 
 A minimal, production-oriented SIP-to-RTP media gateway written in pure Python.  
 Receives inbound SIP calls from a provider (DIDWW or any SIP trunk), decodes G.711 audio, streams PCM to an AI backend over WebSocket, and plays back the AI's audio response to the caller.
