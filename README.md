@@ -30,8 +30,8 @@ Receives inbound SIP calls from a provider (DIDWW or any SIP trunk), decodes G.7
 
 ```
 [DIDWW SIP Trunk]
-      │  SIP INVITE (UDP 5060)
-      ▼
+                       │  SIP INVITE (UDP 5060)
+                       ▼
 ┌─────────────────────────────────────────────────────┐
 │                  SIP Server (UDP 5060)               │
 │          IP whitelist · INVITE/ACK/BYE/CANCEL        │
